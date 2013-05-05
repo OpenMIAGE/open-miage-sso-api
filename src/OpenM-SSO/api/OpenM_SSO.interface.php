@@ -38,6 +38,8 @@ interface OpenM_SSO extends OpenM_Service {
     const RETURN_ERROR_MESSAGE_EXPIRED_SESSION_VALUE = "Expired session";
     const RETURN_ERROR_MESSAGE_CLIENT_NOT_VALID_VALUE = "Client not validated";
     const RETURN_CLIENT_ID_PARAMETER = "CLIENT_ID";
+    const RETURN_ERROR_MESSAGE_NOT_CONNECTED_VALUE = "Not connected";
+    const RETURN_ERROR_CODE_NOT_CONNECTED_VALUE = -1;
     
     const VERSION = "1.0.2";
     
