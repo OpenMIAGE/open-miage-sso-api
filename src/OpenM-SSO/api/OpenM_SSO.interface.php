@@ -28,19 +28,18 @@ Import::php("OpenM-Services.api.OpenM_Service");
  */
 interface OpenM_SSO extends OpenM_Service {
 
-    const SSID_PARAMETER = "OpenM_SSID";
-    const RETURN_SSID_PARAMETER = "OpenM_SSID";
-    const RETURN_SSID_TIMER_PARAMETER = "OpenM_SSID_TIMER";
-    const RETURN_OpenM_ID_PROVIDER_PARAMETER = "OpenID_PROVIDER";
-    const RETURN_SERVICE_ID_PARAMETER = "SERVICE_ID";
+    const SSID_PARAMETER = "SSID";
+    const RETURN_SSID_PARAMETER = "SSID";
+    const RETURN_SSID_TIMER_PARAMETER = "SSIDT";
+    const RETURN_OpenM_ID_PROVIDER_PARAMETER = "OIDP";
+    const RETURN_SERVICE_ID_PARAMETER = "SID";
     const RETURN_ERROR_MESSAGE_NOT_YOUR_SSID_VALUE = "It's not your SSID";
-    const RETURN_ERROR_MESSAGE_NOT_CONNECTED_VALUE = "NOT_CONNECTED";
     const RETURN_ERROR_MESSAGE_NO_SESSION_ACTIVE_VALUE = "No session active";
     const RETURN_ERROR_MESSAGE_EXPIRED_SESSION_VALUE = "Expired session";
     const RETURN_ERROR_MESSAGE_CLIENT_NOT_VALID_VALUE = "Client not validated";
     const RETURN_CLIENT_ID_PARAMETER = "CLIENT_ID";
     
-    const VERSION = "1.1 beta";
+    const VERSION = "1.2";
     
     /**
      * open session is necessary to keep an SSID use to call an api
