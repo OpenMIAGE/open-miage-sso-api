@@ -39,7 +39,7 @@ interface OpenM_SSO extends OpenM_Service {
     const RETURN_ERROR_MESSAGE_CLIENT_NOT_VALID_VALUE = "Client not validated";
     const RETURN_CLIENT_ID_PARAMETER = "CLIENT_ID";
     
-    const VERSION = "1.2";
+    const VERSION = "1.0.2";
     
     /**
      * open session is necessary to keep an SSID use to call an api
