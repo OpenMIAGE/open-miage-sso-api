@@ -28,11 +28,11 @@ Import::php("OpenM-Services.api.OpenM_Service");
  */
 interface OpenM_SSO extends OpenM_Service {
 
-    const SSID_PARAMETER = "SSID";
-    const RETURN_SSID_PARAMETER = "SSID";
-    const RETURN_SSID_TIMER_PARAMETER = "SSIDT";
-    const RETURN_OpenM_ID_PROVIDER_PARAMETER = "OIDP";
-    const RETURN_SERVICE_ID_PARAMETER = "SID";
+    const SSID_PARAMETER = "OpenM_SSID";
+    const RETURN_SSID_PARAMETER = "OpenM_SSID";
+    const RETURN_SSID_TIMER_PARAMETER = "OpenM_SSID_TIMER";
+    const RETURN_OpenM_ID_PROVIDER_PARAMETER = "OpenID_PROVIDER";
+    const RETURN_SERVICE_ID_PARAMETER = "SERVICE_ID";
     const RETURN_ERROR_MESSAGE_NOT_YOUR_SSID_VALUE = "It's not your SSID";
     const RETURN_ERROR_MESSAGE_NO_SESSION_ACTIVE_VALUE = "No session active";
     const RETURN_ERROR_MESSAGE_EXPIRED_SESSION_VALUE = "Expired session";
